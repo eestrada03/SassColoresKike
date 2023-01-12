@@ -1,3 +1,92 @@
 /* ********* */
 /* @BUTTONS */
 /* ********* */
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  div {
+    border-radius: 100px;
+    height: 300px;
+    width: 180px;
+  }
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  div {
+    border-radius: 100px;
+    height: 180px;
+    width: 180px;
+  }
+}
+.flextext {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  justify-content: space-around;
+  div {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+.pildora01 {
+  background-color: map-get($colores, blue);
+}
+.pildora02 {
+  background-color: map-get($colores, turquesa);
+}
+.pildora03 {
+  background-color: map-get($colores, green);
+}
+.pildora04 {
+  background-color: map-get($colores, lightGreen);
+}
+.pildora05 {
+  background-color: map-get($colores, superlightGreen);
+}
+
+.bola01 {
+  background: linear-gradient(
+    130deg,
+    map-get($colores, blue) 0%,
+    map-get($colores, blueFade) 50%
+  );
+}
+.bola02 {
+  background: linear-gradient(
+    130deg,
+    map-get($colores, turquesa) 0%,
+    map-get($colores, turquesaFade) 50%
+  );
+}
+.bola03 {
+  background: linear-gradient(
+    130deg,
+    map-get($colores, green) 0%,
+    map-get($colores, greenFade) 50%
+  );
+}
+.bola04 {
+  background: linear-gradient(
+    130deg,
+    map-get($colores, lightGreen) 0%,
+    map-get($colores, lightGreenFade) 50%
+  );
+}
+.bola05 {
+  background: linear-gradient(
+    130deg,
+    map-get($colores, superlightGreen) 0%,
+    map-get($colores, superlightGreenFade) 50%
+  );
+}
